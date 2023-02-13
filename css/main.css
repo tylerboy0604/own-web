@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0 auto;
+}
+
+
+header{
+    background-color: #000C58;
+    min-height: 110px;
+}
+
+header>img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 4px;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px
+}
+
+main>section{
+    border: 4px solid #F6C8C8;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #FFE6E6;
+
+}
+
+main>section>img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    border-radius: 100000px;
+}
+
+main>section>h2{
+    text-align: center;
+
+}
+main>section>a{
+    text-decoration: none;
+}
+
+main>section>a>p{
+    text-align: center;
+    color: #000C58;
+}
+
+main>section>a:visited>p{
+    color: green;
+}
+main>section>a:hover>p{
+    color:cornflowerblue;
+}
+
